@@ -5,8 +5,8 @@ const q = url.parse(adr, true);
 
 console.log(`protokol : ${q.protocol}`);
 console.log(`hostname : ${q.host}`);
-console.log(`path : ${q.path}`);
-console.log(`params : ${q.search}`);
+console.log(`path     : ${q.path}`);
+console.log(`params   : ${q.search}`);
 
 const qData = q.query;
 console.log(qData);
