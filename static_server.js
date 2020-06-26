@@ -5,7 +5,7 @@ const url = require('url');
 http.createServer((req, res) => {
 
     const q = url.parse(req.url, true);
-    const fileName = q.pathname;
+    const fileName = `./public/home.html`
 
     fs.readFile(fileName, (err, data) => {
 
